@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>حذف الحساب - رسيل</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, sans-serif;
+            background: linear-gradient(135deg, #005BAA 0%, #0088cc 100%);
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #005BAA;
+        }
+
+        h1 {
+            color: #005BAA;
+            font-size: 32px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            color: #005BAA;
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin-top: 5px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #005BAA;
+            font-size: 22px;
+            margin-bottom: 15px;
+            padding-right: 15px;
+            border-right: 4px solid #005BAA;
+        }
+
+        p {
+            color: #333;
+            line-height: 1.8;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul {
+            margin-right: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            color: #333;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+
+        .warning-box {
+            background: #fff3cd;
+            border-right: 4px solid #ffc107;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .warning-box h3 {
+            color: #856404;
+            margin-bottom: 10px;
+        }
+
+        .warning-box p {
+            color: #856404;
+            margin-bottom: 5px;
+        }
+
+        .danger-box {
+            background: #f8d7da;
+            border-right: 4px solid #dc3545;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .danger-box h3 {
+            color: #721c24;
+            margin-bottom: 10px;
+        }
+
+        .danger-box p {
+            color: #721c24;
+        }
+
+        .info-box {
+            background: #d1ecf1;
+            border-right: 4px solid #17a2b8;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .info-box h3 {
+            color: #0c5460;
+            margin-bottom: 10px;
+        }
+
+        .info-box p {
+            color: #0c5460;
+            margin-bottom: 5px;
+        }
+
+        .contact-section {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 10px;
+            margin-top: 30px;
+        }
+
+        .contact-section h3 {
+            color: #005BAA;
+            margin-bottom: 15px;
+        }
+
+        .contact-info {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .contact-item strong {
+            color: #005BAA;
+            margin-left: 10px;
+            min-width: 80px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #e0e0e0;
+            color: #666;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🗑️ حذف الحساب</h1>
+            <p class="subtitle">تطبيق رسيل</p>
+        </div>
+
+        <div class="danger-box">
+            <h3>⚠️ تحذير هام</h3>
+            <p><strong>حذف الحساب إجراء نهائي ولا يمكن التراجع عنه!</strong></p>
+            <p>سيتم حذف جميع بياناتك بشكل دائم ولن تتمكن من استعادتها.</p>
+        </div>
+
+        <div class="section">
+            <h2>📋 ماذا يحدث عند حذف حسابك؟</h2>
+            <p>عند طلب حذف حسابك في تطبيق رسيل، سيتم حذف البيانات التالية بشكل نهائي:</p>
+            <ul>
+                <li><strong>معلومات الحساب:</strong> الاسم، البريد الإلكتروني، رقم الهاتف، وكلمة المرور</li>
+                <li><strong>البيانات الشخصية:</strong> الصورة الشخصية وجميع المعلومات المرتبطة بحسابك</li>
+                <li><strong>سجل الطلبات:</strong> جميع الطلبات السابقة والحالية</li>
+                <li><strong>المحادثات:</strong> جميع المحادثات مع الدعم الفني أو المستخدمين الآخرين</li>
+                <li><strong>الإعدادات:</strong> جميع إعدادات التطبيق والتفضيلات المحفوظة</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>⏱️ المدة الزمنية للحذف</h2>
+            <p>بعد تقديم طلب حذف الحساب:</p>
+            <ul>
+                <li>سيتم إلغاء تنشيط حسابك فوراً</li>
+                <li>سيتم حذف جميع بياناتك بشكل نهائي خلال <strong>30 يوماً</strong></li>
+                <li>خلال فترة الـ 30 يوماً، يمكنك التراجع عن الحذف بالتواصل معنا</li>
+                <li>بعد مرور 30 يوماً، لن يمكن استعادة الحساب أو البيانات</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🔧 كيفية حذف حسابك</h2>
+            <p>لحذف حسابك من تطبيق رسيل، اتبع الخطوات التالية:</p>
+            <ol style="margin-right: 20px;">
+                <li>افتح تطبيق رسيل</li>
+                <li>انتقل إلى "الملف الشخصي" (البروفيل)</li>
+                <li>قم بالتمرير إلى الأسفل</li>
+                <li>اضغط على زر "حذف الحساب"</li>
+                <li>اتبع التعليمات لتأكيد الحذف</li>
+            </ol>
+        </div>
+
+        <div class="warning-box">
+            <h3>📌 ملاحظات هامة</h3>
+            <p>• تأكد من إلغاء أي اشتراكات نشطة قبل حذف الحساب</p>
+            <p>• قم بتنزيل أي بيانات تريد الاحتفاظ بها قبل الحذف</p>
+            <p>• تأكد من عدم وجود طلبات معلقة أو قيد التنفيذ</p>
+            <p>• راجع شروط الاستخدام لمعرفة أي التزامات مالية محتملة</p>
+        </div>
+
+        <div class="section">
+            <h2>🔄 البدائل المتاحة</h2>
+            <p>قبل حذف حسابك نهائياً، يمكنك النظر في هذه البدائل:</p>
+            <ul>
+                <li><strong>إيقاف الإشعارات مؤقتاً:</strong> يمكنك تعطيل الإشعارات من إعدادات الجهاز</li>
+                <li><strong>تغيير كلمة المرور:</strong> إذا كانت مخاوف الأمان هي السبب</li>
+                <li><strong>التواصل مع الدعم الفني:</strong> قد نتمكن من حل مشكلتك دون حذف الحساب</li>
+            </ul>
+        </div>
+
+        <div class="info-box">
+            <h3>ℹ️ معلومات إضافية</h3>
+            <p>• يمكنك إنشاء حساب جديد في أي وقت بعد الحذف</p>
+            <p>• الحساب الجديد سيبدأ من الصفر ولن يحتوي على أي بيانات سابقة</p>
+            <p>• قد يتم الاحتفاظ ببعض البيانات لأغراض قانونية أو تنظيمية وفقاً لسياسة الخصوصية</p>
+        </div>
+
+        <div class="contact-section">
+            <h3>📞 هل تحتاج مساعدة؟</h3>
+            <p>إذا كانت لديك أي أسئلة أو تحتاج إلى مساعدة في حذف حسابك، لا تتردد في التواصل معنا:</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <strong>البريد الإلكتروني:</strong>
+                    <span>rasiltahta@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <strong>واتساب:</strong>
+                    <span>01279070750</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 تطبيق رسيل. جميع الحقوق محفوظة.</p>
+            <p style="margin-top: 10px;">آخر تحديث: ديسمبر 2025</p>
+        </div>
+    </div>
+</body>
+
+</html>
